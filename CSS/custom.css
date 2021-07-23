@@ -1,0 +1,315 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TopHeading Paragraph */
+
+    /* Common top heading  */
+        .anchorLink{
+            text-decoration: none;
+            color:#6A983C;
+            font-size: 12px;
+        }
+/* HeaderLeft */
+    .topheaderLeft{
+        width:320px;
+    }
+
+    .topHLPara{
+        font-size: 10px;
+    }
+/* HeaderRight */
+    .topheaderRight{
+        width:150px;
+    }
+
+/* MidHeader */
+.fas{
+    margin-right: 15px;
+
+}
+
+#midheaderSearchForm{
+    background: #F9F9F9;
+    border:1px solid #D1D1D1;
+    border-radius: 12px;
+    width:500px;
+}
+#midheaderSearchForm input{
+    width:262px;
+}
+.fa-user,.fa-shopping-basket{
+    color:black;
+}
+
+@media only screen and (max-width: 576px) { 
+    .topheaderLeft{
+        width:90%;
+    }
+    .mobileFlex_topheaderLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topheaderRight{
+        width:90%;
+    }
+   .mobileFlex_topheaderRight{
+        display: flex;
+      justify-content: space-evenly;
+    }
+  
+    #midheaderSearchForm{
+    width: 100%;
+    }
+    #midheaderSearchForm input{
+        width:99%;
+        
+    }
+    #midheaderSearchForm input::placeholder{
+        font-size: 14px;    
+        text-align: center;
+        position: relative;
+        top:-5px;
+     
+    }
+    #mobileFlexmidHeaderTitle{
+        display: none;
+    }
+    #mobileFlexUserCart{
+        display: none;
+    }
+}
+
+/* End Header */
+#endheader .nav-item a{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 5px;
+    padding:16px 15px;
+}
+@media only screen and (max-width: 576px) { 
+    #mobileFlexEndHeaderUl{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Main (Category Section) */
+#categor li, 
+#products li,
+#best_products li,
+#social_link li{
+    list-style-type: none;
+}
+.categoryButton{
+    background: #F5F5F5;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.anchorLinkCategory{
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+.colheight{
+    
+    height:282px !important;
+}
+
+
+#categoryCardone{
+    background-image: url(../image/category\ banner1.jpg);
+    height:100%;
+    width:100%;
+}
+
+.RecepieButton{
+    width:163px;
+    height:48px;
+    border-radius: 12px;
+    font-size:15px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    border:2px solid #92C064;;
+}
+
+/* Product Card CSS */
+
+.productCardSize{
+    width:250px !important;
+    height:180px !important;
+    
+}
+.productCardSize img{
+    width:100%;
+    height:100%;
+}
+.productPrice{
+    font-weight: 600;
+    font-size: 18px;
+}
+.productCardRadius{
+    border-radius:24px !important;
+
+}
+.buyNowButton{
+    display: flex;
+    align-items: center;
+    width:100px;
+    height:35px;
+    color:#ffffff;
+    background: #6A983C;
+    border-radius: 12px;
+    border: 2px solid #46760A;
+}
+@media only screen and (max-width: 576px) { 
+    .productCardSize{
+        width:95% !important;
+    }
+}
+
+/* Customer Feedback */
+.feedbackBox{
+    background: rgba(10, 100, 188,0.8);
+}
+
+.feedbackBox1{
+    background: rgba(10, 99, 189,0.5);
+}
+
+.feedbackBox2{
+    background: rgba(10, 99, 189,0.2);
+}
+
+.fa-arrow-circle-left,
+.fa-arrow-circle-right{
+    font-size: 40px;
+    color:black;
+}
+.fa-arrow-circle-left{
+    position:relative;
+    left:20px;
+    top:40px;
+}
+.fa-arrow-circle-right{
+    position:relative;
+    left:-20px;
+    top:40px;
+}
+/* Blog     */
+.blogTitle p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.blogTitle a{
+    font-size: 15px;
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+}
+#dinnerTipsBlogFirst{
+    height:124px;
+}
+.dinnerButton{
+    width:82px;
+    height:18px;
+    background: #6A983C;
+    color:#ffffff;
+    font-size: 12px;
+    padding:0px 8px;
+    border-radius: 12px;
+}
+#dinnerTipsBlogSecond{
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 12px;
+    height: 206px;
+    padding:76px 24px 24px 24px;
+}
+
+.dinnerAuthorPicTime{
+    color:#ffffff;
+}
+.dinnerAuthorPicTime img{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+}
+.dinnerAuthorPara{
+    font-size: 22x;
+    font-weight: 600;
+    color:#ffffff;
+}
+.blogVegetableCardSize{
+    width:269px;    
+    height:180px;
+    
+    border-radius: 12px;
+}
+.blogVegetableCardSize img{
+    width:100%;
+    height:100%;
+}
+.blogPicSize{
+    width:96px;
+    height:96px;
+}
+.blogPicSize img{
+    width:100%;
+    height:100%;
+    border-radius: 12px;
+}
+.vegetableButton{
+    position:relative;
+    left:-110px;
+    width:80px;
+    height:18px;
+    color:#6A983C;
+    font-weight: 600;
+    font-size: 12px;
+    background: #F4F8EC;
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blogVegetable>p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 27px;
+}
+#blogVegetableTime{
+    width:116px;
+}
+#blogVegetableTime>p{
+    font-size: 12px;
+}
+
+#authorPost p{
+    font-size: 15px;
+}
+
+
+/* Footer */
+#products_tags button{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.tagButton{
+    background: #F5F5F5;
+    color:black;
+    border-radius:12px;
+    Padding: 4px, 10px, 4px, 10px;
+    font-weight: 600;
+}
+
+#copyright p{
+    font-size: 12px;
+}

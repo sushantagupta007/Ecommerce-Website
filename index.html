@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/f58f7d1409.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/custom.css">
+
+    
+    <title>E-commerce website</title>
+</head>
+<body>
+    <header>
+        <section class="container d-flex justify-content-between
+                    mobileFlex_topheaderLeft" id="topheader">
+            <div class="topheaderLeft">
+                <div class="d-flex justify-content-between">
+                   <a class="topHLPara anchorLink">Chat with us</a>
+                   <p class="topHLPara">+420 336 775 664</p>
+                   <p class="topHLPara"> info@freshnesecom.com</p>
+                </div>
+            </div>
+            <div class="topheaderRight">
+                <div class="d-flex justify-content-between 
+                    mobileFlex_topheaderRight" >
+                    <a class="anchorLink" href="#"> Blog </a>
+                    <a class="anchorLink" href="#"> About Us</a>
+                    <a class="anchorLink" href="#"> Careers</a>
+                </div>
+            </div>
+        </section>
+     
+        <section id="midheader" class="container">
+            <div class="row">
+                <div id="mobileFlexmidHeaderTitle"class="col-lg-3 col-sm-12">
+                    <div><h3>Freshness.com</h3></div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div id="midheaderSearchForm" class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <nav class="navbar-expand navbar-light bg-light">
+                                <div>
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                        </div>
+                        <div class="me-auto">
+                            <input type="text" placeholder="Search Categories, Products..." class="form-control border-0 bg-light" aria-label="Text input with segmented dropdown button">
+                        </div>
+                        <div id="mobileFlexSeachIcon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobileFlexUserCart"class="col-lg-1 col-sm-12">
+                    <div>
+                        <span><i class="fas fa-user"></i></span>
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                </div>
+            </div>
+            
+            
+           
+        </section> 
+        <section id="endheader">
+            <nav class="navbar navbar-expand navbar-light">
+                <div class="container bg-light">
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id= "mobileFlexEndHeaderUl">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Bakery
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fruit and Vegetables
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Meat and Fish
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Drinks
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Kitchen
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Special Nutrition
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Baby
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pharmacy
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    </header>
+    <main>
+        <!-- Category Section -->
+        <section class="py-3 px-4" id="category">
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-sm-12 colheight d-flex flex-column justify-content-between">
+                        <div class="row">
+                            <div class="col-12"><h5 class="pb-1">Category Menu</h5></div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="p-0">
+                                    <!-- <h5 class="pb-1">Category Menu</h5> -->
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Bakery</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Fruit and Vegetables</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Meat and Fish</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Drink</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Kitchen</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-7">
+                                <button type="button" class="btn categoryButton m-0">More Categories <span><i class="fas fa-chevron-right"></i></span></button>
+                            </div> 
+                        </div> 
+                      </div>
+                  <div class="col-lg-4 col-sm-12 colheight">
+                    <div id="categoryCardone" class="py-2 px-3 rounded d-flex flex-column justify-content-between">
+                        <div>
+                            <p>Banner Subfocus</p>
+                            <h4>Space For Heading</h4>
+                        </div>
+                        <div>
+                            <a class="RecepieButton p-1"href="#">Read Recepie <span><i class="fas fa-chevron-right"></i></span></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12 colheight" >
+                    <div id="categoryCardone" class="py-2 px-3 rounded d-flex flex-column justify-content-between">
+                        <div>
+                            <p>Banner Subfocus</p>
+                            <h4>Space For Heading</h4>
+                        </div>
+                        <div>
+                            <a class="RecepieButton p-1"href="#">Read Recepie <span><i class="fas fa-chevron-right"></i></span></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Product Section -->
+        <section class="py-3 px-4" id="products">
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                  <div class="col-lg-3 colheight productCardRadius">
+                    <div class="p-3 d-flex flex-column justify-content-between">
+                        <div class="row">
+                            <div class="col-12"><h5 class="pb-1">Best Selling Products</h5></div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="pb-5 pt-0 ps-0 mb-4">
+                                    <!-- <h5 class="pb-1">Category Menu</h5> -->
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Kitchen</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Special Nutrition</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Meat and Fish</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Pharmacy</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Baby</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="btn categoryButton m-0">More Products <span><i class="fas fa-chevron-right"></i></span></button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food1.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row productCardRadius">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 rounded">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food3.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Best Products from Farmer -->
+        <section class="py-3 px-4" id="best_products">
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                  <div class="col-lg-3 productCardRadius">
+                    <div class="p-3 d-flex flex-column justify-content-between">
+                        <div class="row">
+                            <div class="col-12"><h5 class="pb-1">Best from Farmers</h5></div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="pb-5 pt-0 ps-0 mb-4">
+                                    <!-- <h5 class="pb-1">Category Menu</h5> -->
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Kitchen</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Special Nutrition</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Meat and Fish</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Pharmacy</a></li>
+                                    <li class="pb-2"><a class="anchorLink anchorLinkCategory" href="#">Baby</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <button type="button" class="btn categoryButton m-0">More Products <span><i class="fas fa-chevron-right"></i></span></button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food4.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row productCardRadius">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food 5.jpeg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 rounded">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food5.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+        <section  class="py-3 px-4"id="customer_feedback">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner container">
+                  <div class="carousel-item active">
+                    <div class="row gy-5">
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 1</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 2</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 3</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row gy-5">
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 3</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 2</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 1</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row gy-5">
+                        <div class="col-lg-4 ">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 2</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 1</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-3 feedbackBox text-white rounded d-flex flex-column align-items-center">
+                                <h6>Customer Feedback 3</h6>
+                                <cite> "is an super space for your customers qoute. 
+                                    Don’t worry it works smooth as pie. You will 
+                                    get all what you need by writiing a text here"
+                                </cite>
+                                <p>Name </p>
+                                <p>Surname</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span  aria-hidden="true"><i class="fas fa-arrow-circle-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span  aria-hidden="true"><i class="fas fa-arrow-circle-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+        </section>
+        <section class="py-3 px-4"id="cards">
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                    <div class="col-lg-3 rounded">
+                        <div class="p-3 border">
+                            <div class="row d-flex justify-content-center p-0">
+                                <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                    <img src="./image/food2.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <div class="col-lg-12 col-sm-12">
+                                    <h6>Product Title</h6>
+                                    <p>Product Description</p>
+                                </div>
+                            </div>
+                            <div class="row productCardRadius">
+                                <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                    <p class="productPrice">1.48USD</p>
+                                    <button type="button" class="btn buyNowButton"> Buy Now</button>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                      </div>
+                  <div class="col-lg-3 rounded">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food3.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row productCardRadius">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-3 rounded">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 rounded">
+                    <div class="p-3 border">
+                        <div class="row d-flex justify-content-center p-0">
+                            <div class="col-lg-12 col-sm-12 productCardSize rounded">
+                                <img src="./image/food 5.jpeg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-2 d-flex justify-content-center">
+                            <div class="col-lg-12 col-sm-12">
+                                <h6>Product Title</h6>
+                                <p>Product Description</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                                <p class="productPrice">1.48USD</p>
+                                <button type="button" class="btn buyNowButton"> Buy Now</button>
+                            </div> 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="blogs">
+            <div class="container overflow-hidden">
+                <div class=" blogTitle d-flex justify-content-between">
+                    <p>Read Our Blog Post </p>
+                    <a class="anchorLink" href="#"> Go To Bog<span><i class="fas fa-chevron-right"></i></span></a>
+                </div>
+                <div class="row gy-3">
+                  <div class="col-lg-4">
+                    <div class="p-3 border bg-light">
+                        <div id="dinnerTipsBlogFirst"class="row">
+                            <button type="button" class="btn dinnerButton">Vegetable</button>
+                        </div>
+                        <div id="dinnerTipsBlogSecond"class="row">
+                            <div class="dinnerAuthor">
+                                <p class="dinnerAuthorPara">Our chef tips for a great and tasty  dinner ready in 20 minutes</p>
+                            </div>
+                            <div class="dinnerAuthorPicTime d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="./image/blogpic.jpg" alt="blogpic">
+                                    <p class="p-0 ps-2 m-0">Author</p>
+                                </div>
+                                <div class="p-0 m-0"> <p class="p-0 m-0">17.06.2020</p></div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-flex flex-column align-items-center">
+                    <div class="p-3 border bg-light">
+                        <div class="blogVegetableCardSize">
+                            <img src="./image/vegetable.jpg" alt="">
+                        </div>
+                    </div>
+                    <button type="button" class="btn vegetableButton">Vegetable</button>
+                    <div class="p-3 ms-3" id="blogVegetable">
+                        <p class="p-0">Which vegetable your family will love and want’s eat each day</p>
+                        <div class="d-flex justify-content-between" id="blogVegetableTime">
+                            <p>Author </p>
+                            <p>15.6.2020</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row gx-2">
+                        <div class="col-lg-8 col-8">
+                            <div id="authorPost" class="p-3 ">
+                                <p>Salat is kinda good start to your morning routines</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>Author</p>
+                                    <p>14.01.2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-4 blogPicSize">
+                            <img src="./image/chef396x96.jpg" alt="">
+                        </div>    
+                    </div>
+                    <div class="row gx-2">
+                        <div class="col-lg-8 col-8">
+                            <div class="p-3">
+                                <p>Our chef tips for a great and healthy breakfast</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>Author</p>
+                                    <p>14.01.2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-4 blogPicSize">
+                            <img src="./image/chef496x96.jpg" alt="">
+                        </div>    
+                    </div>
+                    <div class="row gx-2">
+                        <div class="col-lg-8 col-8">
+                            <div class="p-3">
+                                <p>Prepare a simple and delicious breads</p>
+                                <div class="d-flex justify-content-between">
+                                    <p>Author</p>
+                                    <p>14.01.2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-4 blogPicSize">
+                            <img src="./image/chef1.jpg" alt="">
+                        </div>    
+                    </div>
+                  </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="container py-3 px-4" id="social_link">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul>
+                        <h5>Get in touch</h5>
+                        <li><a class="anchorLink" href="#">About</a></li>
+                        <li><a class="anchorLink" href="#">Careers</a></li>
+                        <li><a class="anchorLink" href="#">Press Release</a></li>
+                        <li><a class="anchorLink" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <h5>Connections</h5>
+                        <li><a class="anchorLink" href="#">Facebook</a></li>
+                        <li><a class="anchorLink" href="#">Twitter</a></li>
+                        <li><a class="anchorLink" href="#">Instagram</a></li>
+                        <li><a class="anchorLink" href="#">Youtube</a></li>
+                        <li><a class="anchorLink" href="#">Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <h5>Earnings</h5>
+                        <li><a class="anchorLink" href="#">Become an affliate</a></li>
+                        <li><a class="anchorLink" href="#">Advertise Your Product</a></li>
+                        <li><a class="anchorLink" href="#">Sell on market</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <h5>Account</h5>
+                        <li><a class="anchorLink" href="#">Your Account</a></li>
+                        <li><a class="anchorLink" href="#">Returns Centre</a></li>
+                        <li><a class="anchorLink" href="#">100% Purchase Protection</a></li>
+                        <li><a class="anchorLink" href="#">Chat With Us</a></li>
+                        <li><a class="anchorLink" href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container d-flex flex-wrap" id="products_tags">
+          <button type="button" class="btn tagButton">Beans</button>
+          <button type="button" class="btn tagButton">Carrots</button>
+          <button type="button" class="btn tagButton">Apples</button>
+          <button type="button" class="btn tagButton">Garlic</button>
+          <button type="button" class="btn tagButton">Mushrooms</button>
+          <button type="button" class="btn tagButton">Tomatoes</button>
+          <button type="button" class="btn tagButton">Chilli Peapers</button>
+          <button type="button" class="btn tagButton">Broccoli</button>
+          <button type="button" class="btn tagButton">Watermelons</button>
+          <button type="button" class="btn tagButton">Orange</button>
+          <button type="button" class="btn tagButton">Bananas</button>
+          <button type="button" class="btn tagButton">Grapes</button>
+          <button type="button" class="btn tagButton">Cherries</button>
+          <button type="button" class="btn tagButton">Meat</button>
+          <button type="button" class="btn tagButton">Seo tag</button>
+          <button type="button" class="btn tagButton">Fish</button>
+          <button type="button" class="btn tagButton">Seo Tag</button>
+          <button type="button" class="btn tagButton">Fresh Food</button>
+          <button type="button" class="btn tagButton">Lemons</button>
+        </section>
+        <section class="container my5" id="copyright">
+            <p>Copyright © 2020 petrbilek.com</p>
+        </section>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
